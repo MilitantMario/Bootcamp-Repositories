@@ -1,0 +1,32 @@
+#app {
+}
+textarea {
+  resize: vertical;
+  height: 100%;
+  padding: 1em;
+  text-align: left;
+}
+.preview {
+  padding: 1em;
+  text-align: right;
+}
+.grid {
+  display: flex;
+  overflow: hidden;
+  margin: 1em 0;
+  align-items: center;
+
+}
+.grid > div {
+  flex: 1;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.button {
+  display: flex;
+  margin: auto;
+  float: left;
+}
